@@ -143,71 +143,70 @@
 
 
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floating Telegram and WhatsApp Icons</title>
-    <style>
-        /* Floating icon container */
-        .floating-icons {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-        
-        /* Individual icon style */
-        .icon {
-            display: block;
-            width: 60px;
-            height: 60px;
-            margin-bottom: 10px;
-            border-radius: 50%;
-            background-color: #25D366; /* WhatsApp color */
-            color: white;
-            text-align: center;
-            line-height: 60px;
-            font-size: 28px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    /* Floating button styles */
+    .floating-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-        .icon.telegram {
-            background-color: #0088cc; /* Telegram color */
-        }
+    .floating-buttons a {
+      margin: 10px 0;
+      background-color: #25D366; /* WhatsApp color */
+      border-radius: 50%;
+      padding: 15px;
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
 
-        .icon:hover {
-            transform: scale(1.1);
-        }
+    .telegram {
+      background-color: #0088cc; /* Telegram color */
+    }
 
-        .icon img {
-            width: 35px;
-            height: 35px;
-        }
-    </style>
+    .whatsapp {
+      background-color: #25D366; /* WhatsApp color */
+    }
+
+    .floating-buttons a:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    }
+  </style>
 </head>
 <body>
 
-    <!-- Floating icons -->
-    <div class="floating-icons">
-        <!-- WhatsApp Icon -->
-        <a href="https://wa.me/254780647955" target="_blank">
-            <div class="icon">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/WhatsApp_Logo_2023.png" alt="WhatsApp">
-            </div>
-        </a>
-        <!-- Telegram Icon -->
-        <a href="https://t.me/githubreviews" target="_blank">
-            <div class="icon telegram">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_Logo_2023.png" alt="Telegram">
-            </div>
-        </a>
-    </div>
+  <!-- Floating Telegram and WhatsApp buttons -->
+  <div class="floating-buttons">
+    <!-- Telegram -->
+    <a href="https://t.me/githubreviews" class="telegram" target="_blank">
+      <i class="fab fa-telegram-plane"></i> 
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/254780647955" class="whatsapp" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Add FontAwesome for the icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </body>
 </html>
+
+
+
