@@ -6,7 +6,130 @@
     <meta name="description" content="List of scam broker reviews and investment schemes">
     <title>Scam Broker Reviews</title>
     <style>
-        /* Same styles as before */
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .ad-banner {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 1 1 70%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .sidebar {
+            flex: 1 1 25%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .links li {
+            margin: 10px 0;
+        }
+
+        .links a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        .links a:hover {
+            color: #0056b3;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            padding: 10px 20px;
+            margin: 0 5px;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .pagination a:hover {
+            background-color: #0056b3;
+        }
+
+        .pagination a:active {
+            background-color: #003d7a;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .ad-banner {
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .content {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .sidebar {
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -15,7 +138,7 @@
     <header>
         <h1>Scam Broker Reviews</h1>
         <div class="ad-banner">
-            <p>Ad Banner (Header)</p>
+            <p>Ad Banner (Header) - Placeholder</p>
         </div>
     </header>
 
@@ -40,7 +163,7 @@
         <!-- Sidebar with Ad Banner -->
         <div class="sidebar">
             <div class="ad-banner">
-                <p>Ad Banner (Sidebar)</p>
+                <p>Ad Banner (Sidebar) - Placeholder</p>
             </div>
             <h3>More Scam Reviews</h3>
             <ul class="links">
@@ -53,10 +176,10 @@
 
     <!-- Footer Section with Ad Banner -->
     <footer>
-        <div class="ad-banner">
-            <p>Ad Banner (Footer)</p>
-        </div>
         <p>&copy; 2025 Scam Broker Reviews. All rights reserved.</p>
+        <div class="ad-banner">
+            <p>Ad Banner (Footer) - Placeholder</p>
+        </div>
     </footer>
 
     <script>
