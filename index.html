@@ -3,241 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="List of scam broker reviews and investment schemes">
-    <title>Scam Broker Reviews</title>
+    <title>Forex & Investment Scams List</title>
     <style>
-        /* General Styles */
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f4f4f4;
             color: #333;
-        }
-
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
             margin: 0;
-            font-size: 2.5em;
-        }
-
-        .ad-banner {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            margin: 10px 0;
-            text-align: center;
-            font-size: 1.2em;
-        }
-
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 20px;
-        }
-
-        .content {
-            flex: 1 1 70%;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-right: 20px;
-            border-radius: 8px;
-        }
-
-        .sidebar {
-            flex: 1 1 25%;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .links {
-            list-style: none;
             padding: 0;
         }
-
-        .links li {
-            margin: 10px 0;
-        }
-
-        .links a {
-            color: #007BFF;
-            text-decoration: none;
-            font-size: 1.1em;
-            transition: color 0.3s;
-        }
-
-        .links a:hover {
-            color: #0056b3;
-        }
-
-        .pagination {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .pagination a {
-            padding: 10px 20px;
-            margin: 0 5px;
-            text-decoration: none;
-            background-color: #007BFF;
-            color: #fff;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .pagination a:hover {
-            background-color: #0056b3;
-        }
-
-        .pagination a:active {
-            background-color: #003d7a;
-        }
-
-        footer {
-            background-color: #007BFF;
-            color: #fff;
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
-            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        footer .ad-banner {
+        h1 {
+            text-align: center;
+            color: #e74c3c;
+            font-size: 2.5em;
+        }
+        .scam-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .scam-list li {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 5px solid #e74c3c;
+            font-size: 1.1em;
+        }
+        .scam-list li a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .scam-list li a:hover {
+            text-decoration: underline;
+        }
+        .ad-banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .ad-banner img {
+            max-width: 100%;
+            height: auto;
+        }
+        .pagination {
+            text-align: center;
             margin-top: 20px;
         }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                padding: 10px;
-            }
-
-            .content {
-                margin-right: 0;
-                margin-bottom: 20px;
-            }
-
-            .sidebar {
-                margin-bottom: 20px;
-            }
+        .pagination button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .pagination button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-
-    <!-- Header Section with Ad Banner -->
-    <header>
-        <h1>Scam Broker Reviews</h1>
-        <div class="ad-banner">
-            <p>Ad Banner (Header) - Placeholder</p>
-        </div>
-    </header>
-
-    <!-- Main Content Section -->
     <div class="container">
-        <!-- Main Content -->
-        <div class="content" id="content">
-            <h2>Scam Broker Reviews</h2>
-            <ul class="links" id="scam-links">
-                <!-- Content items will be populated here by JavaScript -->
-            </ul>
-
-            <!-- Pagination -->
-            <div class="pagination" id="pagination">
-                <a href="#" onclick="loadPage(1)">1</a>
-                <a href="#" onclick="loadPage(2)">2</a>
-                <a href="#" onclick="loadPage(3)">3</a>
-                <a href="#" onclick="loadPage(4)">Next</a>
-            </div>
+        <h1>🚨 Forex & Investment Scams List 🚨</h1>
+        <div class="ad-banner">
+            <!-- Example Ad Banner -->
+            <img src="https://via.placeholder.com/728x90" alt="Advertisement">
         </div>
-
-        <!-- Sidebar with Ad Banner -->
-        <div class="sidebar">
-            <div class="ad-banner">
-                <p>Ad Banner (Sidebar) - Placeholder</p>
-            </div>
-            <h3>More Scam Reviews</h3>
-            <ul class="links">
-                <li><a href="#">Phoenix Energy Review</a></li>
-                <li><a href="#">Neex Review</a></li>
-                <li><a href="#">FISG Review</a></li>
-            </ul>
+        <ul class="scam-list" id="scam-list">
+            <!-- Scam List Items -->
+            <li><a href="https://fintechreviewer.github.io/phoenixenergy.com-review-is-Phoenix-Energy-One-LLC-legit-or-scam/" target="_blank">🔍 Phoenix Energy One LLC - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/neex-review-is-this-broker-legit-or-scam/" target="_blank">🔍 Neex Broker - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/fisg-review/" target="_blank">🔍 FISG - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/zitaplus.com-review/" target="_blank">🔍 ZitaPlus - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/ix-broker-review-is-this-legit-or-scam/" target="_blank">🔍 IX Broker - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/vonway-forex-review/" target="_blank">🔍 Vonway Forex - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/modena.capital-review/" target="_blank">🔍 Modena Capital - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/livaxxen.net-review-is-broker-legit-or-scam/" target="_blank">🔍 Livaxxen Broker - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/CentrisFX-review-is-it-legit-or-scam/" target="_blank">🔍 CentrisFX - Legit or Scam?</a></li>
+            <li><a href="https://fintechreviewer.github.io/alpineprivatewealth.com-review-is-this-firm-legit-or-scam/" target="_blank">🔍 Alpine Private Wealth - Legit or Scam?</a></li>
+            <!-- Add more items here -->
+        </ul>
+        <div class="pagination">
+            <button onclick="loadPage2()">Page 2 ➡️</button>
+        </div>
+        <div class="ad-banner">
+            <!-- Example Ad Banner -->
+            <img src="https://via.placeholder.com/728x90" alt="Advertisement">
         </div>
     </div>
-
-    <!-- Footer Section with Ad Banner -->
     <footer>
-        <p>&copy; 2025 Scam Broker Reviews. All rights reserved.</p>
-        <div class="ad-banner">
-            <p>Ad Banner (Footer) - Placeholder</p>
-        </div>
+        &copy; 2023 Forex Scam Alert. All rights reserved.
     </footer>
 
     <script>
-        const links = [
-            "https://fintechreviewer.github.io/phoenixenergy.com-review-is-Phoenix-Energy-One-LLC-legit-or-scam/",
-            "https://fintechreviewer.github.io/neex-review-is-this-broker-legit-or-scam/",
-            "https://fintechreviewer.github.io/fisg-review/",
-            "https://fintechreviewer.github.io/zitaplus.com-review/",
-            "https://fintechreviewer.github.io/ix-broker-review-is-this-legit-or-scam/",
-            "https://fintechreviewer.github.io/vonway-forex-review/",
-            "https://fintechreviewer.github.io/modena.capital-review/",
-            "https://fintechreviewer.github.io/livaxxen.net-review-is-broker-legit-or-scam/",
-            "https://fintechreviewer.github.io/CentrisFX-review-is-it-legit-or-scam/",
-            "https://fintechreviewer.github.io/alpineprivatewealth.com-review-is-this-firm-legit-or-scam/",
-            "https://fintechreviewer.github.io/standardsignalfx.com-review-is-this-platform-legit-or-scam/",
-            "https://fintechreviewer.github.io/wildbearunion.net-review-is-this-broker-legit-or-scam/",
-            "https://fintechreviewer.github.io/alpinevistawealth-review-scam-or-not/",
-            "https://fintechreviewer.github.io/phoenixenergy.com-review-is-Phoenix-Energy-One-LLC-legit-or-scam/"
-        ];
-
-        const itemsPerPage = 5; // Number of items per page
-        let currentPage = 1; // Starting on page 1
-
-        // Load initial page content
-        function loadPage(page) {
-            currentPage = page;
-
-            const startIndex = (page - 1) * itemsPerPage;
-            const endIndex = startIndex + itemsPerPage;
-            const pageLinks = links.slice(startIndex, endIndex);
-            
-            // Update content with the links for the current page
-            const content = document.getElementById("scam-links");
-            content.innerHTML = ''; // Clear existing content
-            pageLinks.forEach(link => {
-                const listItem = document.createElement("li");
-                const anchor = document.createElement("a");
-                anchor.href = link;
-                anchor.target = "_blank";
-                anchor.textContent = "Review Link";
-                listItem.appendChild(anchor);
-                content.appendChild(listItem);
-            });
-
-            // Highlight the active page
-            const paginationLinks = document.getElementById("pagination").getElementsByTagName("a");
-            Array.from(paginationLinks).forEach((link, index) => {
-                if (index === page - 1) {
-                    link.style.backgroundColor = "#555";
-                } else {
-                    link.style.backgroundColor = "#333";
-                }
-            });
+        function loadPage2() {
+            const scamList = document.getElementById('scam-list');
+            scamList.innerHTML = `
+                <li><a href="https://fintechreviewer.github.io/standardsignalfx.com-review-is-this-platform-legit-or-scam/" target="_blank">🔍 Standard Signal FX - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/wildbearunion.net-review-is-this-broker-legit-or-scam/" target="_blank">🔍 Wild Bear Union - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/alpinevistawealth-review-scam-or-not/" target="_blank">🔍 Alpine Vista Wealth - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/phoenixenergy.com-review-is-Phoenix-Energy-One-LLC-legit-or-scam/" target="_blank">🔍 Phoenix Energy One LLC - Legit or Scam?</a></li>
+            `;
+            document.querySelector('.pagination').innerHTML = `<button onclick="loadPage1()">⬅️ Page 1</button>`;
         }
 
-        // Initialize the page
-        loadPage(1);
+        function loadPage1() {
+            const scamList = document.getElementById('scam-list');
+            scamList.innerHTML = `
+                <li><a href="https://fintechreviewer.github.io/phoenixenergy.com-review-is-Phoenix-Energy-One-LLC-legit-or-scam/" target="_blank">🔍 Phoenix Energy One LLC - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/neex-review-is-this-broker-legit-or-scam/" target="_blank">🔍 Neex Broker - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/fisg-review/" target="_blank">🔍 FISG - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/zitaplus.com-review/" target="_blank">🔍 ZitaPlus - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/ix-broker-review-is-this-legit-or-scam/" target="_blank">🔍 IX Broker - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/vonway-forex-review/" target="_blank">🔍 Vonway Forex - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/modena.capital-review/" target="_blank">🔍 Modena Capital - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/livaxxen.net-review-is-broker-legit-or-scam/" target="_blank">🔍 Livaxxen Broker - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/CentrisFX-review-is-it-legit-or-scam/" target="_blank">🔍 CentrisFX - Legit or Scam?</a></li>
+                <li><a href="https://fintechreviewer.github.io/alpineprivatewealth.com-review-is-this-firm-legit-or-scam/" target="_blank">🔍 Alpine Private Wealth - Legit or Scam?</a></li>
+            `;
+            document.querySelector('.pagination').innerHTML = `<button onclick="loadPage2()">Page 2 ➡️</button>`;
+        }
     </script>
-
 </body>
 </html>
